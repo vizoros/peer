@@ -1,6 +1,7 @@
 ![](vizoros-logo-smaller.png)
 
 # Distribute smaller container images
+My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.
 ![Optimize container image size](vizoros-optimized-mysql.gif)
 
 # Prerequiste software required
