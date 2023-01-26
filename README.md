@@ -4,7 +4,7 @@
 My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.
 ![](vizoros-optimized-mysql.gif)
 # Fast descentralized concurrent container image pulls
-![](vizoros-optimized-mysql.gif)
+![](vizoros-concurrent-fast-pulls.gif)
 
 # Prerequiste software required
 - Latest stable version of Docker
