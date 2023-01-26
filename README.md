@@ -7,7 +7,7 @@ These are just some of the features of our Super Peer ...
 + Docker images are compress/encrypted for optimal secure network transfer and decreased costs
 + Mitosis replication feature that allows every peer to spawn off an installation of more peers.
 
-There are many other features, options, flexibilities, and extensibilities that are not mentioned.
+There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
 
 # Example usage
 ### Distribute smaller images (example reduced mysql:latest image size by 84%+)
