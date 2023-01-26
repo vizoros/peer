@@ -6,7 +6,7 @@
 # Installation instructions (step by step) via Github
 1. Open a terminal (MacOS/Linux) or command prompt (Windows)
 2. Make an empty directory `mkdir peer`
-3. Download latest release from GitHub releases (4 files) into the peer folder/directory.
+3. Download latest `Preview Release` from GitHub releases (4 files) into the peer folder/directory.
 4. Execute the following command:`java -jar vfy-install.jar`
 5. Sit back and watch the hands-free process 
 
