@@ -1,4 +1,4 @@
-![alt text][vizoros-logo.png]
+![](vizoros-logo.png)
 # Prerequiste software required
 - Latest stable version of Docker
 - Latest stable version of Java (at least 1.8) of Oracle or Open Java
