@@ -1,7 +1,7 @@
 ![](vizoros-logo-smaller.png)
 
 # Example usage
-### Distribute smaller images (example reduced image size by 84%+)
+### Distribute smaller images (example reduced mysql:latest image size by 84%+)
 `My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.`
 ![](vizoros-optimized-mysql.gif)
 ### Fast decentralized concurrent image pulls (example over WIFI pulls 77 images < 18 seconds) 
