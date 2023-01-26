@@ -2,7 +2,7 @@
 
 # Example usage
 ### Distribute smaller container images (example reduced image size by 84%+)
-My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.
+`My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.`
 ![](vizoros-optimized-mysql.gif)
 ### Fast decentralized concurrent container image pulls (example pulls 77 images < 18 seconds) 
 ![](vizoros-concurrent-fast-pulls.gif)
