@@ -3,7 +3,7 @@
 # Distribute smaller container images
 My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.
 ![](vizoros-optimized-mysql.gif)
-# Fast descentralized concurrent container image pulls
+# Fast decentralized concurrent container image pulls
 ![](vizoros-concurrent-fast-pulls.gif)
 
 # Prerequiste software required
