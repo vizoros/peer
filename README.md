@@ -1,5 +1,11 @@
 ![](vizoros-logo-smaller.png)
 
+# Vizoros Super Peer
+These are just some of the features of the our Super Peer ...
++ Resilent service architecture that uses a try again approach to recover lost time.
++ Mitosis replication feature that allows every peer to spawn off an installation of more peers
++ Docker images are compress and encrypted for optimal secure network transfer and decreased costs
+
 # Example usage
 ### Distribute smaller images (example reduced mysql:latest image size by 84%+)
 `My MacBookPro from 2015 is 8 years old. I'm sure your experience will be better.`
