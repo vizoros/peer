@@ -12,7 +12,7 @@
 # Prerequiste software required
 - Latest stable version of Docker
 - Latest stable version of Java (at least 1.8) of Oracle or Open Java
-- Bash 4 or newer (MacOS/Linux), Windows Command Prompt (cmd.exe) is enough.
+- Bash 3 or newer (MacOS/Linux), Windows Command Prompt (cmd.exe) is enough.
 
 # Installation instructions (step by step) via Github
 1. Open a terminal (MacOS/Linux) or command prompt (Windows)
