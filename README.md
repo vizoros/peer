@@ -4,7 +4,8 @@
 These are just some of the features of our Super Peer ...
 + A secure and lean RESTful service architecture to integrate enterprise services.
 + Resilent service architecture that uses a try again approach to recover lost time.
-+ Docker images are compress/encrypted for optimal secure network transfer and decreased costs
++ Parallel processing (multicore), asychronous architecture, and various other optimizations.
++ Docker images are compress/encrypted for optimal secure network transfer and decreased costs.
 + Mitosis replication feature that allows every peer to spawn off an installation of more peers.
 
 There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
