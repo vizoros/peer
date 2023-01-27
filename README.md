@@ -32,6 +32,11 @@ There are many other features, configurations, options, flexibilities, and exten
 5. Sit back and watch the hands-free process 
 
 # Quick Installation instructions
+`Super Peer Installation Walkthrough video`
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=O5kQGQj-cdc
+" target="_blank"><img src="http://img.youtube.com/vi/O5kQGQj-cdc/0.jpg" 
+alt="Super Peer Installation Walkthrough" width="240" height="180" border="10" /></a>
+
 [Super Peer Quick installation instructions](https://hub.docker.com/r/vizoros/install).
 
 [Email Vizoros Team for support issues](mailto:vizoros.issues@gmail.com?subject=[Super%20Peer]%20GitHub%20Instructions)
