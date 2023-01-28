@@ -33,7 +33,7 @@ There are many other features, configurations, options, flexibilities, and exten
 
 # Quick Super Peer Installation Walkthrough video
 ### (right mouse click and select new tab to view video in a tab)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=O5kQGQj-cdc" target="_blank"><img src="http://img.youtube.com/vi/O5kQGQj-cdc/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UXE0xFtisvM" target="_blank"><img src="http://img.youtube.com/vi/UXE0xFtisvM/0.jpg" 
 alt="Super Peer Installation Walkthrough" width="240" height="180" border="10" /></a>
 
 # Quick Installation instructions
