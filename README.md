@@ -2,6 +2,7 @@
 
 # Vizoros Super Peer
 These are just some of the features of our Super Peer ...
++ First Class Peer to Peer Architecture
 + Peer to Peer decentralized container image(s) distribution. 
 + A secure and lean RESTful service architecture to integrate enterprise services.
 + Resilent service architecture that uses a try again approach to recover lost time.
