@@ -42,6 +42,7 @@ alt="Super Peer Installation Walkthrough" width="240" height="180" border="10" /
 [Super Peer Quick installation instructions](https://hub.docker.com/r/vizoros/install).
 
 # News, Contact, Videos, and Support
+[Vizoros Website](https://bit.ly/vzos-website)<br>
 [Vizoros Docker Hub](https://bit.ly/vzos-docker)<br>
 [Vizoros Group Twitter](https://bit.ly/vzos-twitter)<br>
 [Vizoros YouTube videos](https://bit.ly/vzos-youtube)<br>
