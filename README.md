@@ -39,7 +39,7 @@ There are many other features, configurations, options, flexibilities, and exten
 alt="Super Peer Installation Walkthrough" width="240" height="180" border="10" /></a>
 
 # Quick Installation instructions
-[Vizoros Docker Hub](https://bit.ly/vzos-docker)
+[Vizoros Docker Hub](https://bit.ly/vzos-docker)<br>
 [Vizoros YouTube videos](https://bit.ly/vzos-youtube)
 
 [Super Peer Quick installation instructions](https://hub.docker.com/r/vizoros/install).
