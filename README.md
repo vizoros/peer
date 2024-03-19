@@ -36,7 +36,7 @@ There are many other features, configurations, options, flexibilities, and exten
 The peer directory must not exist. 
 The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
 $\color{red}{\texttt{IMPORTANT}}$
-$\color{green}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
+$\color{yellow}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
 ```
 mkdir peer && cd peer && \
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
@@ -47,7 +47,7 @@ java -jar vfy-install.jar
 The peer directory must not exist.
 The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
 $\color{red}{\texttt{IMPORTANT}}$
-$\color{green}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
+$\color{yellow}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
 ```
 mkdir peer && cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
