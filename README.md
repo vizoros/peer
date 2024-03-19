@@ -25,6 +25,8 @@ There are many other features, configurations, options, flexibilities, and exten
 
 # Prerequiste software and configuration required
 - Latest stable version of Docker
+  [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
+  [Docker for Window](https://docs.docker.com/desktop/install/windows-install/)<br>
 - Docker container needs minimum of 2.5GB to 3GB.
 - Latest stable version of Java (at least 1.8 or newer)
 - Bash 3.2 or (ideally) newer (MacOS/Linux), Windows Command Prompt (cmd.exe) is enough.
