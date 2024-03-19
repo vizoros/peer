@@ -30,7 +30,9 @@ There are many other features, configurations, options, flexibilities, and exten
 - Latest stable version of Java (at least 1.8 or newer)<br>
   [Java Adoptium](https://adoptium.net/temurin/releases/)<br>
 - Docker container needs minimum of 2.5GB to 3GB.  
-- Bash 3.2 or (ideally) newer (MacOS/Linux), Windows Command Prompt (cmd.exe) is enough.
+- MacOS we support Bash 3.2 or (ideally) newer<br>
+  [FHomebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
+- Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL.
 
 # There are two ways to install our Vizoros Super Peer.
 
