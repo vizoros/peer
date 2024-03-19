@@ -31,7 +31,7 @@ There are many other features, configurations, options, flexibilities, and exten
   [Java Adoptium](https://adoptium.net/temurin/releases/)<br>
 - Docker container needs minimum of 2.5GB to 3GB.  
 - MacOS we support Bash 3.2 or (ideally) newer<br>
-  [FHomebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
+  [Homebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
 - Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL.
 
 # There are two ways to install our Vizoros Super Peer.
