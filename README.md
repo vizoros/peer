@@ -1,5 +1,4 @@
 ![](images/vizoros-logo-smaller.png)
-
 # Vizoros Super Peer
 These are just some of the features of our Super Peer ...
 + It's Free.
@@ -23,6 +22,7 @@ There are many other features, configurations, options, flexibilities, and exten
 ### Restart concurrent image pulls where they left off (simulate a network outage)
 <img src="/images/vizoros-concurrent-restart-pull.gif" width="375" height="250"/>
 
+# Vizoros Super Peer installation Guide #
 # Prerequiste software and configuration required
 - Latest stable version of Docker<br>
   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
