@@ -37,7 +37,7 @@ There are many other features, configurations, options, flexibilities, and exten
 # There are two ways to install our Vizoros Super Peer.
 
 ## First way: Github 
-### Linux/Macos (Cygwin and MSYS bash shell on Windows) instructions: open a terminal and copy paste commands ...
+### Linux/macOS (Cygwin and MSYS bash shell on Windows) instructions: open a terminal and copy paste commands ...
 The peer directory must not exist. 
 The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
 $\color{red}{\texttt{IMPORTANT}}$
