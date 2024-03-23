@@ -48,6 +48,13 @@ curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.j
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz && \
 java -jar vfy-install.jar
 ```
+For Terminal only (no Desktop UI aka headless)
+```
+mkdir peer && cd peer && \
+curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
+curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz && \
+java -DHEADLESS -jar vfy-install.jar
+```
 ### Windows 10/11 instructions: open Command Prompt terminal and copy paste commands ...
 The peer directory must not exist.
 The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
