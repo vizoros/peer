@@ -48,7 +48,7 @@ curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.j
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz && \
 java -jar vfy-install.jar
 ```
-For Terminal only (no Desktop UI aka headless)
+For Terminal only (no Desktop aka headless)
 ```
 mkdir peer && cd peer && \
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
@@ -65,6 +65,13 @@ mkdir peer && cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
 java -jar vfy-install.jar
+```
+For Terminal only (no Desktop aka headless)
+```
+mkdir peer && cd peer & ^
+curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
+curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
+java -DHEADLESS -jar vfy-install.jar
 ```
 (You may see More? on old command prompt prepended to some lines, just and ignore and press.)
 ### To update future releases on Windows 10/11 (change directory into peer's home directory) using DOS Windows terminal (cmd.exe):
