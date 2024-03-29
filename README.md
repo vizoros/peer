@@ -61,7 +61,7 @@ The directory name can be any name instead of peer, but please no spaces or spec
 $\color{red}{\texttt{IMPORTANT}}$
 $\color{yellow}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
 ```
-mkdir peer && cd peer & ^
+mkdir peer & cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
 java -jar vfy-install.jar
