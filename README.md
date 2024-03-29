@@ -68,7 +68,7 @@ java -jar vfy-install.jar
 ```
 For Terminal only (no Desktop aka headless)
 ```
-mkdir peer && cd peer & ^
+mkdir peer & cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
 java -DHEADLESS -jar vfy-install.jar
