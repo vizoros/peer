@@ -12,17 +12,10 @@ These are just some of the features of our Super Peer ...
 
 There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
 
-# Example usage
-### Distribute smaller images (example reduced mysql:latest image size by 84%+)
-<img src="/images/vizoros-optimized-mysql.gif" width="350" height="250"/>
-
-### Fast decentralized concurrent image pulls (example over WIFI pulls 77 images < 18 secs)
-<img src="/images/vizoros-concurrent-fast-pulls.gif" width="350" height="250"/>
-
-### Restart concurrent image pulls where they left off (simulate a network outage)
-<img src="/images/vizoros-concurrent-restart-pull.gif" width="375" height="250"/>
-
 # Vizoros Super Peer installation Guide #
+[![Linux, macOS, and Unix installation](http://img.youtube.com/vi/PLMN16Le5tFXFNXN166K8NJr7pbW9T_X6H/0.jpg)](http://www.youtube.com/watch?v=PLMN16Le5tFXFNXN166K8NJr7pbW9T_X6H)
+
+
 # Prerequiste software and configuration required
 - Latest stable version of Docker<br>
   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
