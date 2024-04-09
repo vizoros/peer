@@ -13,7 +13,7 @@ These are just some of the features of our Super Peer ...
 There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
 
 # Vizoros Super Peer installation Guide #
-[![Linux, macOS, and Unix installation](http://img.youtube.com/vi/PLMN16Le5tFXFNXN166K8NJr7pbW9T_X6H/0.jpg)](http://www.youtube.com/watch?v=PLMN16Le5tFXFNXN166K8NJr7pbW9T_X6H)
+[![Linux, macOS, and Unix installation](http://img.youtube.com/vi/tLp_q8O-3UA/0.jpg)](http://www.youtube.com/watch?v=tLp_q8O-3UA)
 
 
 # Prerequiste software and configuration required
