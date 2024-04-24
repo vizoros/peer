@@ -28,7 +28,7 @@ alt="Linux, macOS, and Unix installation" width="240" height="180" border="10" /
 - Latest stable version of Java (at least 1.8 or newer)<br>
   [Java Adoptium](https://adoptium.net/temurin/releases/)<br>
 - Docker container needs minimum of 2.5GB to 3GB.  
-- MacOS we support Bash 3.2 or (ideally) newer<br>
+- MacOS we support Bash 3.2.57+ or (ideally) latest<br>
   [Homebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
 - Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL.
 
