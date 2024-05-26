@@ -43,14 +43,12 @@ $\color{yellow}{\texttt{By downloading and installing, the user has read and ack
 ```
 mkdir peer && cd peer && \
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz && \
 java -jar vfy-install.jar
 ```
 For Terminal only (no Desktop aka headless)
 ```
 mkdir peer && cd peer && \
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz && \
 java -DHEADLESS -jar vfy-install.jar
 ```
 ### Windows 10/11 instructions: open Command Prompt terminal and copy paste commands ...
@@ -61,14 +59,12 @@ $\color{yellow}{\texttt{By downloading and installing, the user has read and ack
 ```
 mkdir peer & cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
 java -jar vfy-install.jar
 ```
 For Terminal only (no Desktop aka headless)
 ```
 mkdir peer & cd peer & ^
 curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-peer.tar.xz & ^
 java -DHEADLESS -jar vfy-install.jar
 ```
 (You may see More? on old command prompt prepended to some lines, just and ignore and press.)
