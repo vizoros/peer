@@ -32,7 +32,7 @@ alt="Linux, macOS, and Unix installation" width="240" height="180" border="10" /
 
 ## These are instructions with or without a Desktop present.
 
-### U/Linux/macOS (works with Cygwin & MSYS bash shell on Windows) 
+### U/Linux/macOS (works with Cygwin, MSYS, and WSL2 bash shell on Windows) 
 Instructions: open a terminal and copy paste commands into an empty directory like "peer" ...
 ```
 peer$> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.sh | bash -s -- install-headless.sh
