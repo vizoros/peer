@@ -1,10 +1,7 @@
 @echo off
 :: Filename install-headless.cmd
-
-:: Installation jar
 set JAR_URL=https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar
 
-:: Download the JAR if it doesn't exist
 if not exist "vfy-install.jar" (
     curl -fsLO "%JAR_URL%"
     if errorlevel 1 (
@@ -14,7 +11,6 @@ if not exist "vfy-install.jar" (
     )
 )
 
-:: Check if Java is available
 where java >nul 2>nul
 if errorlevel 1 (
     echo Error: Java is not installed or not in PATH
@@ -22,7 +18,6 @@ if errorlevel 1 (
     exit /b 1
 )
 
-:: Detect Java version
 for /f "tokens=2 delims=\ " %%v in ('java -version 2^>^&1 ^| findstr /i "version"') do (
     set JAVA_VERSION_RAW=%%v
 )
@@ -32,7 +27,6 @@ if "%JAVA_VERSION_RAW%"=="" (
     exit /b 1
 )
 
-:: Parse Java version
 for /f "tokens=1-3 delims=._" %%a in ("%JAVA_VERSION_RAW%") do (
     set JAVA_MAJOR=%%a
     set JAVA_MINOR=%%b
@@ -41,9 +35,8 @@ for /f "tokens=1-3 delims=._" %%a in ("%JAVA_VERSION_RAW%") do (
 :: Handle Java 1.8 and below
 if "%JAVA_MAJOR%"=="1" set JAVA_MAJOR=%JAVA_MINOR%
 
-:: Set Java options
-set JAVA_OPTS=
 
+set JAVA_OPTS=
 :: Add Java 9+ options if needed
 if %JAVA_MAJOR% GEQ 9 (
     set JAVA_OPTS=--add-opens=java.base/java.time=ALL-UNNAMED ^
@@ -62,6 +55,5 @@ if %JAVA_MAJOR% GEQ 22 (
 )
 
 :: Run the application
-echo Starting in headless mode (Java %JAVA_MAJOR% detected)...
 call java %JAVA_OPTS% -jar vfy-install.jar %*
 exit /b %ERRORLEVEL%
