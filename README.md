@@ -32,56 +32,20 @@ alt="Linux, macOS, and Unix installation" width="240" height="180" border="10" /
   [Homebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
 - Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL.
 
-# There are two ways to install our Vizoros Super Peer.
+# These are instructions for HEADLESS mode which can be installed with or without a Desktop present.
 
-## First way: Github 
-### Linux/macOS (Cygwin and MSYS bash shell on Windows) instructions: open a terminal and copy paste commands ...
-The peer directory must not exist. 
-The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
-$\color{red}{\texttt{IMPORTANT}}$
-$\color{yellow}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
+### U/Linux/macOS (works with Cygwin & MSYS bash shell on Windows) 
+### Instructions: open a terminal and copy paste commands into an empty directory like "peer" ...
 ```
-mkdir peer && cd peer && \
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
-java -jar vfy-install.jar
+peer$> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.sh | bash -s -- install-headless.sh
 ```
-For Terminal only (no Desktop aka headless)
+### Windows 10/11 native Command Prompt (cmd.exe)
+### Instructions: open Command Prompt (cmd.exe) and copy paste commands into an empty folder like "peer" ...
 ```
-mkdir peer && cd peer && \
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar && \
-java -DHEADLESS -jar vfy-install.jar
+C:\Users\[username]> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.cmd | cmd
 ```
-### Windows 10/11 instructions: open Command Prompt terminal and copy paste commands ...
-The peer directory must not exist.
-The directory name can be any name instead of peer, but please no spaces or special characters except for dash (-) and underscore (_).<br>
-$\color{red}{\texttt{IMPORTANT}}$
-$\color{yellow}{\texttt{By downloading and installing, the user has read and acknowledged the license agreement.}}$
-```
-mkdir peer & cd peer & ^
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
-java -jar vfy-install.jar
-```
-For Terminal only (no Desktop aka headless)
-```
-mkdir peer & cd peer & ^
-curl -sLO https://github.com/vizoros/peer/releases/download/latest/vfy-install.jar & ^
-java -DHEADLESS -jar vfy-install.jar
-```
-(You may see More? on old command prompt prepended to some lines, just and ignore and press.)
-### To update future releases on Windows 10/11 (change directory into peer's home directory) using DOS Windows terminal (cmd.exe):
-```
-.\vfy-install -ua & .\vfy-install --update-container & .\vfy cmd fullservice-mode
-```
-### To update future releases on MacOS/Linux (change directory into peer's home directory) using Terminal in bash shell:
-```
-./vfy-install -ua && ./vfy-install --update-container && ./vfy cmd fullservice-mode
-```
-Wait until the command prompt comes back.  
-When finished, either a browser is displayed or a file path to our EULA (End User License Agreement) file location is displayed.
+When the entire installation and configration is completed, a browser url will appear.
 That's it!
-
-## Second way: Docker
-1. See https://hub.docker.com/r/vizoros/install
 
 # News, Contact, Videos, and Support
 [Vizoros Website](https://bit.ly/vzos-website)<br>
