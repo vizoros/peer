@@ -55,5 +55,5 @@ if %JAVA_MAJOR% GEQ 22 (
 )
 
 :: Run the application
-call java %JAVA_OPTS% -jar vfy-install.jar %*
+call java %JAVA_OPTS% -DHEADLESS -jar vfy-install.jar %*
 exit /b %ERRORLEVEL%
