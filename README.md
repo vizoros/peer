@@ -10,7 +10,7 @@ These are just some of the features of our Super Peer ...
 + Mitosis replication feature that allows every peer to spawn off an installation of more peers.
 + Docker images are compressed and encrypted for optimal decreased costs and secure network transfer.
 
-There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
+# There are many other features, configurations, options, flexibilities, and extensibilities that are not mentioned.
 
 # Vizoros Super Peer installation Guide #
 ## Linux, macOS, and Unix installation video guide
