@@ -21,7 +21,7 @@ These are just some of the features of our Super Peer.
 - Docker container needs minimum of approximately 3GB.  
 - MacOS we support Bash 3.2.57+ or (ideally) latest<br>
   [Homebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
-- Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL.
+- Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL2.
 
 ## These are instructions with or without a Desktop present.
 
