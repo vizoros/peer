@@ -35,12 +35,12 @@ alt="Linux, macOS, and Unix installation" width="240" height="180" border="10" /
 ### U/Linux/macOS (works with Cygwin, MSYS, and WSL2 bash shell on Windows) 
 Instructions: open a terminal and copy paste commands into an empty directory like "peer" ...
 ```
-peer$> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.sh | bash -s -- install-headless.sh
+peer$> curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.sh | bash
 ```
 ### Windows 10/11 native Command Prompt (cmd.exe)
 Instructions: open Command Prompt (cmd.exe) and copy paste commands into an empty folder like "peer" ...
 ```
-C:\Users\[username]\peer> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.cmd | cmd
+C:\Users\[username]\peer> curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.cmd  | cmd
 ```
 When the entire installation and configration is completed, a browser url will appear.
 That's it!
