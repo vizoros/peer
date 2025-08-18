@@ -40,7 +40,7 @@ peer$> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/insta
 ### Windows 10/11 native Command Prompt (cmd.exe)
 Instructions: open Command Prompt (cmd.exe) and copy paste commands into an empty folder like "peer" ...
 ```
-C:\Users\[username]> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.cmd | cmd
+C:\Users\[username]\peer> curl -fsSL https://github.com/vizoros/peer/releases/latest/download/install-headless.cmd | cmd
 ```
 When the entire installation and configration is completed, a browser url will appear.
 That's it!
