@@ -25,7 +25,9 @@ These are just some of the features of our Super Peer.
 
 ## These are instructions with or without a Desktop present.
 
-### U/Linux/macOS (works with Cygwin, MSYS, and WSL2 bash shell on Windows) 
+### U/Linux/macOS (works with Cygwin, MSYS, and WSL2 bash shell on Windows)
+The following packages are required for WSL2/Ubuntu (equivalent U/Linux) non-Desktop installations:
+sudo apt install bash bind9-dnsutils ncurses openjdk-21-jre-headless
 Instructions: open a terminal and copy paste commands into an empty directory like "peer" ...
 ```
 curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.sh | bash
