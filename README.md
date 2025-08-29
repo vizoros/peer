@@ -2,13 +2,12 @@
 # Vizoros Super Peer
 These are just some of the features of our Super Peer.
 + It's Free.
-+ Proprietary P2P network architecture that is lean.
 + Multi-tenant architecture (just create a new peer)
 + Create UNLIMITED peers without restrictions just be a good citizen.
 + Transfer any kind of data or service using container image technology like Docker.
 + Start your own network of peers without hidden remote dependent corporate servers of any kind.
 + You are up and running in seconds without complicated configuration, manuals, and instructions.
-+ Individual users have the power of a full (first class) service peer architecture -- not just a peer client or peer agent.
++ Individual users have the power of a full autonomous first class peer architecture -- not just a peer client or peer agent.
 
 # Vizoros Super Peer installation Guide #
 
