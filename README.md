@@ -34,7 +34,7 @@ curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.
 ### Windows 10/11 native Command Prompt (cmd.exe)
 Instructions: open Command Prompt (cmd.exe) and copy paste commands into an empty folder like "peer" ...
 ```
-curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.cmd  | cmd
+curl -fsSL -o install-headless.cmd https://raw.githubusercontent.com/vizoros/peer/main/install-headless.cmd && cmd /c install-headless.cmd
 ```
 When the entire installation and configration is completed, a browser url will appear.
 That's it!
