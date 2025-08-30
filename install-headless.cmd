@@ -56,4 +56,8 @@ if %JAVA_MAJOR% GEQ 22 (
 
 :: Run the application
 call java %JAVA_OPTS% -DHEADLESS -jar vfy-install.jar %*
+
+:: Self-delete sliently
+del "%~f0" > nul 2>&1
+
 exit /b %ERRORLEVEL%
