@@ -1,7 +1,11 @@
 ![](images/vizoros-logo-smaller.png)
 # Vizoros First Class Ultra Peer and Super Peer
+
+Experience our visionary cutting edge lean Vizor (Web) technology that supports 
+a proprietary 3D (AR/VR technology). 
+
 These are just some of the features of our Super Peer.
-+ It's Free.
++ It's Free. 
 + Multi-tenant architecture (just create a new peer)
 + Create UNLIMITED peers without restrictions just be a good citizen.
 + Transfer any kind of data or service using container image technology like Docker.
