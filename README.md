@@ -15,12 +15,12 @@ These are just some of the features of our Super Peer.
 - Latest stable version of Docker<br>
   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
   [Docker for Window](https://docs.docker.com/desktop/install/windows-install/)<br>
-- Latest stable version of Java (at least 1.8 or newer)<br>
+- Latest stable version of Java (at least 1.8+)<br>
   [Java Adoptium](https://adoptium.net/temurin/releases/)<br>
 - Docker container needs minimum of approximately 3GB.  
-- MacOS we support Bash 3.2.57+ or (ideally) latest<br>
+- MacOS we support Bash 3.2.57+ or (ideally) latest from Homebrew<br>
   [Homebrew (brew) to get the latest Bash release](https://brew.sh/)<br>
-- Windows 10/11 we support Command Prompt (cmd.exe), Cygwin, MSYS, and WSL2.
+- Windows 10/11 we support WSL2 and Command Prompt (cmd.exe), with no support for Cygwin and MSYS although it *SHOULD* work.
 
 ## These are instructions with or without a Desktop present.
 
@@ -47,5 +47,10 @@ That's it!
 [Vizoros Group X (Twitter)](https://bit.ly/vzos-twitter)<br>
 
 [Email Vizoros Team for support issues](mailto:vizoros.issues@gmail.com?subject=[Super%20Peer]%20GitHub%20Instructions)
+
+This software has no warranties of any kind.<br>
+We are not responsible for any losses, damages, and misuses of any kind.<br>
+We try our best to create high quality software, however, we reuse open source software<br>
+that makes no warranties as well. Please use at your own risk.<br>
 
 Copyright &#169; 2026 Vizoros Group. All rights reserved.
