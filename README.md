@@ -1,5 +1,5 @@
 ![](images/vizoros-logo-smaller.png)
-# Vizoros Super Peer
+# Vizoros First Class Ultra Peer and Super Peer
 These are just some of the features of our Super Peer.
 + It's Free.
 + Multi-tenant architecture (just create a new peer)
@@ -38,7 +38,6 @@ Instructions: open a terminal and create an empty folder/directory (like "peer")
 ```
 curl -fsSLO https://raw.githubusercontent.com/vizoros/peer/main/install-headless.cmd && cmd /c install-headless.cmd
 ```
-When the entire installation and configration is completed, a browser url will appear.
 That's it!
 
 # News, Contact, Videos, and Support
@@ -48,3 +47,5 @@ That's it!
 [Vizoros Group X (Twitter)](https://bit.ly/vzos-twitter)<br>
 
 [Email Vizoros Team for support issues](mailto:vizoros.issues@gmail.com?subject=[Super%20Peer]%20GitHub%20Instructions)
+
+Copyright &#169; 2026 Vizoros Group. All rights reserved.
