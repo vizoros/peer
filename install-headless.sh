@@ -2,6 +2,28 @@
 # Filename: install-headless.sh
 JAR_URL="https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar"
 
+# Terminal configuration (minimum values for progressbar)
+MIN_ROWS=35
+MIN_COLS=125
+
+# Function to resize terminal to minimum dimensions
+resizeterminal() {
+    local MIN_ROWS=${1:-$MIN_ROWS}
+    local CUR_ROWS CUR_COLS
+    if command -v tput >/dev/null 2>&1; then
+       CUR_ROWS=$(tput lines 2>/dev/null)
+       CUR_COLS=$(tput cols 2>/dev/null)
+    fi
+    CUR_ROWS=${CUR_ROWS:-$MIN_ROWS}
+    CUR_COLS=${CUR_COLS:-$MIN_COLS}
+    local NEW_ROWS=$(( CUR_ROWS < MIN_ROWS ? MIN_ROWS : CUR_ROWS ))
+    local NEW_COLS=$(( CUR_COLS < MIN_COLS ? MIN_COLS : CUR_COLS ))
+    if [ "$NEW_ROWS" -ne "$CUR_ROWS" ] || [ "$NEW_COLS" -ne "$CUR_COLS" ]; then
+       printf '\e[8;%d;%dt' "$NEW_ROWS" "$NEW_COLS"
+    fi
+}
+resizeterminal
+
 detect_java_version() {
     local version_raw
     version_raw=$(java -version 2>&1 | grep -i version | head -1)
