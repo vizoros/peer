@@ -18,8 +18,8 @@ set /a DESIRED_COLS=%VFY_TTY_COLUMN%
 if %DESIRED_ROWS% GTR %MAX_ROWS% set DESIRED_ROWS=%MAX_ROWS%
 if %DESIRED_COLS% GTR 999 set DESIRED_COLS=999
 
-:: Set console size (commented out to avoid issues in headless mode)
-:: mode con: cols=%DESIRED_COLS% lines=%DESIRED_ROWS%
+:: Set console size (progressbar requirement)
+mode con: cols=%DESIRED_COLS% lines=%DESIRED_ROWS%
 
 if not exist "vfy-install.jar" (
     curl -fsLO "%JAR_URL%"
