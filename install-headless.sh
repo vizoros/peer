@@ -22,6 +22,7 @@ resizeterminal() {
        printf '\e[8;%d;%dt' "$NEW_ROWS" "$NEW_COLS"
     fi
 }
+# Set console size (progressbar requirement)
 resizeterminal
 
 detect_java_version() {
