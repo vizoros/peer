@@ -2,6 +2,25 @@
 :: Filename install-headless.cmd
 set JAR_URL=https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar
 
+:: Terminal configuration (minimum values for progressbar)
+set VFY_TTY_ROW=35
+set VFY_TTY_COLUMN=125
+
+:: Get current console size and set terminal dimensions
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do for /f "tokens=* delims= " %%b in ("%%a") do set MAX_ROWS=%%b
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do for /f "tokens=* delims= " %%b in ("%%a") do set MAX_COLS=%%b
+
+:: Compute desired size
+set /a DESIRED_ROWS=%VFY_TTY_ROW%
+set /a DESIRED_COLS=%VFY_TTY_COLUMN%
+
+:: Cap to max allowed by buffer
+if %DESIRED_ROWS% GTR %MAX_ROWS% set DESIRED_ROWS=%MAX_ROWS%
+if %DESIRED_COLS% GTR 999 set DESIRED_COLS=999
+
+:: Set console size (commented out to avoid issues in headless mode)
+:: mode con: cols=%DESIRED_COLS% lines=%DESIRED_ROWS%
+
 if not exist "vfy-install.jar" (
     curl -fsLO "%JAR_URL%"
     if errorlevel 1 (
