@@ -1,8 +1,7 @@
 ![](images/vizoros-logo-smaller.png)
 # Vizoros First Class Ultra Peer and Super Peer
 
-Experience our visionary cutting edge lean browser based Vizor (Web) technology that supports 
-a proprietary 3D (AR/VR technology). 
+Step into our visionary cutting edge lean browser based Vizor web technology engineered for the future of AR and VR.
 
 These are just some of the features of our Super Peer.
 + It's Free. 
