@@ -10,10 +10,31 @@ MIN_COLS=125
 resizeterminal() {
     local MIN_ROWS=${1:-$MIN_ROWS}
     local CUR_ROWS CUR_COLS
-    if command -v tput >/dev/null 2>&1; then
-       CUR_ROWS=$(tput lines 2>/dev/null)
-       CUR_COLS=$(tput cols 2>/dev/null)
+    local size
+
+    # Method 1 (more reliable): stty size
+    if [ -t 0 ]; then
+        size=$(stty size 2>/dev/null)
+    elif [ -c /dev/tty ]; then
+        size=$(stty size 2>/dev/null </dev/tty)
     fi
+
+    # Method 2 (less reliable but works as a fallback: tput if stty failed
+    if [ -z "$size" ] && command -v tput >/dev/null 2>&1; then
+        if [ -t 0 ]; then
+            CUR_ROWS=$(tput lines 2>/dev/null)
+            CUR_COLS=$(tput cols 2>/dev/null)
+        elif [ -c /dev/tty ]; then
+            CUR_ROWS=$(tput lines 2>/dev/null </dev/tty)
+            CUR_COLS=$(tput cols 2>/dev/null </dev/tty)
+        fi
+    fi
+
+    if [ -n "$size" ]; then
+        CUR_ROWS=$(echo "$size" | awk '{print $1}')
+        CUR_COLS=$(echo "$size" | awk '{print $2}')
+    fi
+
     CUR_ROWS=${CUR_ROWS:-$MIN_ROWS}
     CUR_COLS=${CUR_COLS:-$MIN_COLS}
     local NEW_ROWS=$(( CUR_ROWS < MIN_ROWS ? MIN_ROWS : CUR_ROWS ))
