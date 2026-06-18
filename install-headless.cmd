@@ -6,20 +6,26 @@ set JAR_URL=https://github.com/vizoros/peer/releases/latest/download/vfy-install
 set VFY_TTY_ROW=35
 set VFY_TTY_COLUMN=125
 
-:: Get current console size and set terminal dimensions
-for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do for /f "tokens=* delims= " %%b in ("%%a") do set MAX_ROWS=%%b
-for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do for /f "tokens=* delims= " %%b in ("%%a") do set MAX_COLS=%%b
+:: Get current console size
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do for /f "tokens=* delims= " %%b in ("%%a") do set CUR_ROWS=%%b
+for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Columns"') do for /f "tokens=* delims= " %%b in ("%%a") do set CUR_COLS=%%b
 
-:: Compute desired size
-set /a DESIRED_ROWS=%VFY_TTY_ROW%
-set /a DESIRED_COLS=%VFY_TTY_COLUMN%
+:: Compute desired size (only resize if current is smaller than minimum)
+set /a DESIRED_ROWS=%CUR_ROWS%
+set /a DESIRED_COLS=%CUR_COLS%
+if %CUR_ROWS% LSS %VFY_TTY_ROW% set DESIRED_ROWS=%VFY_TTY_ROW%
+if %CUR_COLS% LSS %VFY_TTY_COLUMN% set DESIRED_COLS=%VFY_TTY_COLUMN%
 
-:: Cap to max allowed by buffer
-if %DESIRED_ROWS% GTR %MAX_ROWS% set DESIRED_ROWS=%MAX_ROWS%
-if %DESIRED_COLS% GTR 999 set DESIRED_COLS=999
-
-:: Set console size (progressbar requirement)
-mode con: cols=%DESIRED_COLS% lines=%DESIRED_ROWS%
+:: Only resize if needed
+if %DESIRED_ROWS% NEQ %CUR_ROWS% (
+    if %DESIRED_COLS% NEQ %CUR_COLS% (
+        mode con: cols=%DESIRED_COLS% lines=%DESIRED_ROWS%
+    ) else (
+        mode con: cols=%CUR_COLS% lines=%DESIRED_ROWS%
+    )
+) else if %DESIRED_COLS% NEQ %CUR_COLS% (
+    mode con: cols=%DESIRED_COLS% lines=%CUR_ROWS%
+)
 
 if not exist "vfy-install.jar" (
     curl -fsLO "%JAR_URL%"
