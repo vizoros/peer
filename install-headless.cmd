@@ -60,7 +60,6 @@ for /f "tokens=1-3 delims=._" %%a in ("%JAVA_VERSION_RAW%") do (
 :: Handle Java 1.8 and below
 if "%JAVA_MAJOR%"=="1" set JAVA_MAJOR=%JAVA_MINOR%
 
-
 set JAVA_OPTS=
 :: Add Java 9+ options if needed
 if %JAVA_MAJOR% GEQ 9 (
