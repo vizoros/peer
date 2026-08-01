@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 :: Filename install-headless.cmd
 set JAR_URL=https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar
 
