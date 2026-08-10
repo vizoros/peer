@@ -4,8 +4,8 @@ chcp 65001 >nul
 set JAR_URL=https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar
 
 :: Terminal configuration (minimum values for progressbar)
-set VFY_TTY_ROW=35
-set VFY_TTY_COLUMN=125
+set VFY_TTY_ROW=45
+set VFY_TTY_COLUMN=145
 
 :: Get current console size
 for /f "tokens=2 delims=:" %%a in ('mode con ^| findstr "Lines"') do for /f "tokens=* delims= " %%b in ("%%a") do set CUR_ROWS=%%b
@@ -60,6 +60,7 @@ for /f "tokens=1-3 delims=._" %%a in ("%JAVA_VERSION_RAW%") do (
 
 :: Handle Java 1.8 and below
 if "%JAVA_MAJOR%"=="1" set JAVA_MAJOR=%JAVA_MINOR%
+
 
 set JAVA_OPTS=
 :: Add Java 9+ options if needed
