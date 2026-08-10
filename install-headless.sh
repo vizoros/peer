@@ -3,8 +3,8 @@
 JAR_URL="https://github.com/vizoros/peer/releases/latest/download/vfy-install.jar"
 
 # Terminal configuration (minimum values for progressbar)
-MIN_ROWS=35
-MIN_COLS=125
+MIN_ROWS=45
+MIN_COLS=145
 
 # Function to resize terminal to minimum dimensions
 resizeterminal() {
@@ -18,7 +18,7 @@ resizeterminal() {
     elif [ -c /dev/tty ]; then
         size=$(stty size 2>/dev/null </dev/tty)
     fi
-
+    
     # Method 2 (less reliable but works as a fallback: tput if stty failed
     if [ -z "$size" ] && command -v tput >/dev/null 2>&1; then
         if [ -t 0 ]; then
@@ -34,7 +34,7 @@ resizeterminal() {
         CUR_ROWS=$(echo "$size" | awk '{print $1}')
         CUR_COLS=$(echo "$size" | awk '{print $2}')
     fi
-
+    
     CUR_ROWS=${CUR_ROWS:-$MIN_ROWS}
     CUR_COLS=${CUR_COLS:-$MIN_COLS}
     local NEW_ROWS=$(( CUR_ROWS < MIN_ROWS ? MIN_ROWS : CUR_ROWS ))
