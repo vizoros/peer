@@ -44,9 +44,10 @@ if errorlevel 1 (
     exit /b 1
 )
 
-for /f "tokens=2 delims=\ " %%v in ('java -version 2^>^&1 ^| findstr /i "version"') do (
+for /f "tokens=3" %%v in ('java -version 2^>^&1 ^| findstr /i "version"') do (
     set JAVA_VERSION_RAW=%%v
 )
+set JAVA_VERSION_RAW=%JAVA_VERSION_RAW:"=%
 
 if "%JAVA_VERSION_RAW%"=="" (
     echo [ERROR] Failed to detect Java version.
