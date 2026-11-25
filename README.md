@@ -23,17 +23,17 @@
 <!-- NOTE: Keep this section only for organizations that have agreed to be listed.
 Add official logo files at images/trusted-by/ibm.png and images/trusted-by/spacex.png. -->
 
+<!--
 <h2 align="center">T R U S T E D &nbsp; B Y</h2>
 
-<!--
 <p align="center">
   <img src="images/trusted-by/ibm.png" alt="IBM" height="36">
   &emsp;&emsp;&emsp;&emsp;&emsp;
   <img src="images/trusted-by/spacex.png" alt="SpaceX" height="36">
 </p>
--->
 
 <p align="center"><sub>All logos are trademarks of their respective owners.</sub></p>
+-->
 
 ---
 
@@ -84,43 +84,10 @@ curl -fsSL https://raw.githubusercontent.com/vizoros/peer/main/install-headless.
 ### 🎉 That's it. You now have your own peer.
 
 > 🎥 Prefer to watch? See the [video walkthroughs](https://bit.ly/vzos-youtube).
-> 🔍 Want to read the installer before running it? [Totally encouraged](#-dont-trust-us-check-us).
 
 <!-- Tip: add a screenshot or short GIF of the install here, e.g.
 ![Install in seconds](images/install.gif)
 -->
-
----
-
-## 🔍 Don't trust us. Check us.
-
-Vizoros is about *you* staying in control, so the installer is just as open.
-
-- **Read it first.** The installer is a plain text script, public in this repo: [install-headless.sh](https://github.com/vizoros/peer/blob/main/install-headless.sh) (Linux/macOS) · [install-headless.cmd](https://github.com/vizoros/peer/blob/main/install-headless.cmd) (Windows).
-- **Look before you run.** Prefer to read it on your own machine first? Download it, read it, then run it. Same result, no surprises.
-
-**Linux / macOS / WSL2**
-
-```bash
-curl -fsSLO https://raw.githubusercontent.com/vizoros/peer/main/install-headless.sh
-less install-headless.sh      # read it (press q to quit)
-bash install-headless.sh      # run it when you're happy
-```
-
-**Windows**
-
-```bat
-curl -fsSLO https://raw.githubusercontent.com/vizoros/peer/main/install-headless.cmd
-type install-headless.cmd
-install-headless.cmd
-```
-
-- **No login, no accounts, no hidden corporate servers.** Nothing to sign up for, and nothing phoning home to someone else's infrastructure.
-
-<!-- Add a short "What the installer does" list here, for example what it downloads
-and what it creates in your folder. This is the strongest trust builder for technical readers.
-Also consider pointing the URLs above at a release tag instead of "main" so the script
-people read is exactly the one they run. -->
 
 ---
 
