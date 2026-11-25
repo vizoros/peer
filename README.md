@@ -16,7 +16,7 @@ These are just some of the features of our Super Peer.
 # Vizoros Super Peer installation Guide #
 
 ## Prerequiste software and configuration required
-- We support most Linux based Operating Systems
+- We support most Linux based Operating Systems<br>
   Debian (glibc) based Operating systems
 - Latest stable version of Docker<br>
   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
