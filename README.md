@@ -25,11 +25,13 @@ Add official logo files at images/trusted-by/ibm.png and images/trusted-by/space
 
 <h2 align="center">T R U S T E D &nbsp; B Y</h2>
 
+<!--
 <p align="center">
   <img src="images/trusted-by/ibm.png" alt="IBM" height="36">
   &emsp;&emsp;&emsp;&emsp;&emsp;
   <img src="images/trusted-by/spacex.png" alt="SpaceX" height="36">
 </p>
+-->
 
 <p align="center"><sub>All logos are trademarks of their respective owners.</sub></p>
 
