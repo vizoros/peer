@@ -16,6 +16,8 @@ These are just some of the features of our Super Peer.
 # Vizoros Super Peer installation Guide #
 
 ## Prerequiste software and configuration required
+- We support most Linux based Operating Systems
+  Debian (glibc) based Operating systems
 - Latest stable version of Docker<br>
   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)<br>
   [Docker for Window](https://docs.docker.com/desktop/install/windows-install/)<br>
@@ -28,7 +30,7 @@ These are just some of the features of our Super Peer.
 
 ## These are instructions with or without a Desktop present.
 
-### U/Linux/macOS<br>
+### Linux/macOS<br>
 
 The following packages are required for WSL2/Ubuntu (equivalent U/Linux) non-Desktop installations:<br>
 sudo apt install bash bind9-dnsutils ncurses openjdk-21-jre-headless<br>
